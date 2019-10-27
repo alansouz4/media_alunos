@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Média Alunos</title>
+    <style>
+    
+        h1 {
+            font: 15px normal;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <h1>**************Cálculo média Alunos**************</h1>
+    <script>
+    
+    var nome = prompt("Nome aluno: ")
+    var n1 = Number(prompt("Vamos calcular sua média. Digite a primeira nota: "));
+        while ((n1<0)||(n1>10)){
+            
+            n1 = Number(prompt("Digite notas de 0 a 10. Digite novamente a primeira nota: "))
+        }
+        
+        var n2 = Number(prompt("Digite a segunda nota"));
+        while ((n2<0)||(n2>10)){
+            
+            n2 = Number(prompt("Digite notas de 0 a 10. Digite novamente a segunda nota: "))
+        }
+        media = (n1+n2)/2
+        document.write(`${nome}, o valor da sua média este semestre foi ${media}. </br></br>`)
+
+        if(media<5){
+            document.write(`Aluno REPROVADO`)
+        }
+        else if(media >=5 && media <=10){
+            document.write(`Parabéns, você foi "APROVADO!"`)
+        }
+        
+
+    </script>
+</body>
+</html>
