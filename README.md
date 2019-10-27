@@ -1,1 +1,1 @@
-Repositório Git - Recode Grupo 6
+Repositório cáculo média alunos
