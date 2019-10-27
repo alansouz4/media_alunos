@@ -1,1 +1,1 @@
-Repositório cáculo média alunos
+Repositório cáculo média alunos, usando while e if
