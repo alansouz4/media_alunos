@@ -1,1 +1,1 @@
-Repositório Git - Recode Grupo 6
+Repositório cáculo médio alunos, usando while e if
