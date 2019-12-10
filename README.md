@@ -1,1 +1,1 @@
-Repositório cáculo média alunos, usando while e if
+Média alunos, usando while e if
